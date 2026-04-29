@@ -3,8 +3,8 @@ const ctx = canvas.getContext("2d");
 let datos = [];
 let tiempo = 0;
 let velocidad = 1;
-let anchoBanda = 10;
-let rttBase = 50;
+let anchoBanda = 50;
+let rttBase = 80;
 let ejecutando = false;
 document.getElementById("btn").addEventListener("click", function(){
   if(!ejecutando){
