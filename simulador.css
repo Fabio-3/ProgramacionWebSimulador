@@ -7,19 +7,16 @@ body{
   align-items:center;
   height:100vh;
 }
-
 .contenedor{
   text-align:center;
   display:flex;
   flex-direction:column;
   align-items:center;
 }
-
 canvas{
   border:1px solid black;
   margin-top:20px;
 }
-
 button{
   margin-top:15px;
   padding:10px;
